@@ -1,11 +1,11 @@
 ### Date created:
 2020-03-09
 
-### US Bike Share Data Analysis UI :bike::bike::bike:
+# :bike::bike: US Bike Share Data Analysis UI :bike::bike:
 
 
 ### Description:
-UI to analyse bike share data for 3 major US cities.
+UI to analyze bike share data for 3 major US cities.
 
 #### User input:
 
