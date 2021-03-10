@@ -61,13 +61,13 @@ $       $$$$$       $   4$$$$$$$     L       *$$$"      4
 
     # Ensuring user types correctly
     while True:
-        filter = input('\nDo you wish to filter by month? Yes / No:\n').lower().strip()
-        if filter in ('yes', 'no'):
+        selection = input('\nDo you wish to filter by month? Yes / No:\n').lower().strip()
+        if selection in ('yes', 'no'):
             break
             
         print('That is not an option. Choose again or ctrl + c / ctr + z to exit')
         
-    if filter.lower()== 'yes':
+    if selection.lower()== 'yes':
         # Ensuring user types month correctly
         while True:
             month = input('\nWhich month (there is data available until June)?\n').title().strip()
@@ -82,13 +82,13 @@ $       $$$$$       $   4$$$$$$$     L       *$$$"      4
     
     # Ensuring user types correctly
     while True:
-        filter = input('\nDo you wish to filter by day? Yes / No:\n').lower().strip()
-        if filter in ('yes', 'no'):
+        selection = input('\nDo you wish to filter by day? Yes / No:\n').lower().strip()
+        if selection in ('yes', 'no'):
             break
         
         print('That is not an option. Choose again or ctrl + c / ctr + z to exit')
         
-    if filter.lower()== 'yes':
+    if selection.lower()== 'yes':
         # Ensuring user types day of the week correctly
         while True:
             day = input('\nWhich day?\n').title().strip()
