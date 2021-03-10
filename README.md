@@ -53,7 +53,7 @@ After that, the user can either restart the query or quit the application.
 ### Credits
 Special thanks to Udacity's team of instructors, mentors and all of the platform's personnel. 
 
-#:fire:**It's been a blast!!!**:fire:
+# :fire:**It's been a blast!!!**:fire:
 
 
 
